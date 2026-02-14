@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>Kahoot!</title>
+      <meta name="keywords" content="" />
+      <meta name="description" content="" />
+      <!--<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">-->
+      <link href="../Assets/default.css" rel="stylesheet" type="text/css" media="all" />
+      <link rel="stylesheet" type="text/css" href="../Assets/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+      <!--Favicon-->
+      <link rel="shortcut icon" href="../Images/Favicon/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="../Images/Favicon/favicon.ico" type="image/x-icon">
+      <link rel="apple-touch-icon" sizes="57x57" href="../Images/Favicon/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="../Images/Favicon/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="../Images/Favicon/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="../Images/Favicon/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="../Images/Favicon/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="../Images/Favicon/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="../Images/Favicon/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="../Images/Favicon/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="../Images/Favicon/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="../Images/Favicon/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="../Images/Favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="../Images/Favicon/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="../Images/Favicon/favicon-16x16.png">
+      <link rel="manifest" href="../Images/Favicon/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="../Images/Favicon/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+      <!--[if IE 6]>
+      <link href="default_ie6.css" rel="stylesheet" type="text/css" />
+      <![endif]-->
+   </head>
+   <body>
+      <div id="mySidenav" class="sidenav">
+         <a href="../index.html">Home</a>
+         <a href="../assessment.html">Assessment</a>
+         <a href="../creation.html">Creation</a>
+         <a href="../collaboration.html">Collaboration</a>
+         <ul id="myUL">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for an app..">
+            <li><a href="../assessment/canvas.html">Canvas Quizzes</a></li>
+            <li><a href="http://creationstations.vansd.org/chatterpix.html">Chatterpix</a></li>
+            <li><a href="../assessment/classkick.html">Classkick</a></li>
+            <li><a href="../assessment/edpuzzle.html">EdPuzzle</a></li>
+            <li><a href="http://creationstations.vansd.org/educreations.html">Educreations</a></li>
+            <li><a href="http://creationstations.vansd.org/explaineverything.html">Explain Everything</a></li>
+            <li><a href="../assessment/googleforms.html">Google Forms</a></li>
+            <li><a href="http://creationstations.vansd.org/greenscreen.html">Green Screen</a></li>
+            <li><a href="../assessment/kahoot.html">Kahoot!</a></li>
+            <li><a href="http://creationstations.vansd.org/imotion.html">iMotion</a></li>
+            <li><a href="http://creationstations.vansd.org/imovie.html">iMovie</a></li>
+            <li><a href="../assessment/nearpod.html">Nearpod</a></li>
+            <li><a href="http://creationstations.vansd.org/opinion.html">Opinion</a></li>
+            <li><a href="../assessment/padlet.html">Padlet</a></li>
+            <li><a href="../assessment/plickers.html">Plickers</a></li>
+            <li><a href="../assessment/polleverywhere.html">Poll Everywhere</a></li>
+            <li><a href="http://creationstations.vansd.org/puppetpals.html">Puppet Pals</a></li>
+            <li><a href="../assessment/quizlet.html">Quizlet</a></li>
+            <li><a href="../assessment/quizletlive.html">Quizlet Live</a></li>
+            <li><a href="../assessment/quizizz.html">Quizizz</a></li>
+            <li><a href="../assessment/socrative.html">Socrative</a></li>
+            <li><a href="http://creationstations.vansd.org/sparkpage.html">Spark Page</a></li>
+            <li><a href="http://creationstations.vansd.org/spark.html">Spark Video</a></li>
+            <li><a href="http://creationstations.vansd.org/tellagami.html">Tellagami</a></li>
+         </ul>
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>		
+      </div>
+      <div id="header-wrapper">
+         <span style="font-size:30px; padding-left: 20px; cursor:pointer" onclick="openNav()">&#9776;</span>
+         <div id="header" class="container">
+            <div id="logo"> 
+               <a href="index.html" target="new"><img src="../Images/AppMatch.fw.png" width="524" height="100" alt="App Matcher" /></a>
+            </div>
+         </div>
+      </div>
+      <div id="nav-wrapper">
+         <div id="nav">
+            <ul>
+               <li><a href="../index.html" title="Home">Home</a></li>
+               <li><a href="../assessment.html" title="Assessment">Assessment</a></li>
+               <li><a href="../creation.html" title="Creation">Creation</a></li>
+               <li><a href="../collaboration.html" title="Collaboration">Collaboration</a></li>
+            </ul>
+         </div>
+      </div>
+      <div id="wrapper">
+         <div id="content-wrapper">
+            <div class="side_container">
+               <p><img src="../Images/AppIcons/Kahoot.fw.png" alt="" width="100" height="100" /></p>
+               <h2>Kahoot!</h2>
+               <a href="https://kahoot.com/" title="Kahoot!" target="new">Website</a>
+               <table id="filter-summary">
+                  <tr>
+                     <th colspan="2">Filters</th>
+                  </tr>
+                  <tr>
+                     <td><strong>Grade Level</strong></td>
+                     <td>K-12</td>
+                  </tr>
+                  <tr>
+                     <td><strong>Set-up</strong></td>
+                     <td><img src="../Images/easy.fw.png" width="96" height="24" alt="Easy" /></td>
+                  </tr>
+                  <tr>
+                     <td><strong>Feedback</strong></td>
+                     <td>Whole group and individual</td>
+                  </tr>
+                  <tr>
+                     <td><strong>Group Size</strong></td>
+                     <td>Whole group</td>
+                  </tr>
+                  <tr>
+                     <td><strong>Ownership</strong></td>
+                     <td>Teacher led, student led with the app</td>
+                  </tr>
+                  <tr>
+                     <th class="bottom" colspan="2"></th>
+                  </tr>
+               </table>             
+               <h3>Pros</h3>
+               <ul>
+                  <li>Easy to set-up and join</li>
+                  <li>Engaging whole class activity</li>
+                  <li>Assign for homework through the app</li>
+               </ul>
+               <h3>Cons</h3>
+               <ul>
+                  <li>No prebuilt classes</li>
+                  <li>Students tapper off if they are doing poorly</li>
+               </ul>
+            </div>
+            <div class="content_container">
+               <h3>What is Kahoot!?</h3>
+               <p>Kahoot! is an app and website that allows you to administer quizzes, discussions or surveys. It is a game based classroom response system played by the whole class in real time. Multiple-choice questions are projected on the screen. Students answer the questions with their smartphone, tablet or computer.</p>
+               <h3>What is set-up like?</h3>
+               <p>You can search for and edit an existing game or create one of their own from scratch.</p>
+               <h3>How will students be assessed?</h3>
+               <p>Students compete against the class. They earn points by answering questions correctly and quickly. The top 5 are displayed on the teacher screen throughout the game.</p>
+               <h3>Who leads the activity?</h3>
+               <p>The student and the teacher. The teacher the activity when you play as a class. The teacher needs an account at kahoot.com. When they start a game, a game pin is created. Students use the game pin to join the game. Students can run play games on their own or start group games using the iOS app.</p>
+               <h3>What type of data feedback is available?</h3>
+               <p>You get a report at the end of the game. You can download the report as a spreadsheet. It may be difficult to connect pseudo names to actual students.</p>
+               <h3>See it in action</h3>
+               <div class="videoWrapper">
+                  <iframe width="400" height="225" src="https://www.youtube.com/embed/JhK6sOQcPQ8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <div id="copyright">
+         <h2>Follow VPS ITF</h2>
+         <section>
+            <ul class="icons">
+               <li><a href="https://twitter.com/vpsitf" target="new" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+               <li><a href="http://welearn.vansd.org" target="new" class="icon style2 fa-globe"><span class="label">WeLearn</span></a></li>
+               <!--<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+                  <li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>-->
+               <li><a href="mailto:tyler.mckell@vansd.org" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+               <li><a href="tel:3603131100" class="icon style2 fa-phone"><span class="label">Phone</span></a></li>
+            </ul>
+         </section>
+         <hr>
+         <p>&copy; App Matcher | All rights reserved | Design by Tyler McKell</p>
+      </div>
+      <!--Scripts-->
+      <!--Open and close the nav menu-->
+      <script>
+         function openNav() {
+         document.getElementById("mySidenav").style.width = "300px";
+         }
+         
+         function closeNav() {
+         document.getElementById("mySidenav").style.width = "0";
+         }
+      </script>
+      <!--Filter apps on the nav menu-->
+      <script>
+         function myFunction() {
+         // Declare variables
+         var input, filter, ul, li, a, i;
+         input = document.getElementById('myInput');
+         filter = input.value.toUpperCase();
+         ul = document.getElementById("myUL");
+         li = ul.getElementsByTagName('li');
+         
+         // Loop through all list items, and hide those who don't match the search query
+         for (i = 0; i < li.length; i++) {
+           a = li[i].getElementsByTagName("a")[0];
+           if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+               li[i].style.display = "";
+           } else {
+               li[i].style.display = "none";
+           }
+         }
+         }
+      </script>
+   </body>
+</html>
